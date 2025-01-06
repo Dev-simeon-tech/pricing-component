@@ -1,0 +1,26 @@
+.toggle-button {
+  $width: 4rem;
+  padding: 4px;
+  width: $width;
+  background-color: hsl(237, 63%, 64%);
+  border: none;
+  height: 2.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+
+  .toggle-switch {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+  }
+  &.monthly {
+    .toggle-switch {
+      transform: translate(100%);
+    }
+  }
+  &:hover:not(:focus) {
+    background-color: hsl(237, 63%, 84%);
+  }
+}

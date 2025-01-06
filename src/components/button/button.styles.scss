@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px 5px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  margin-top: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--button-color);
+  background: linear-gradient(
+    154deg,
+    rgb(163, 168, 240) 0%,
+    rgb(105, 111, 221) 39%
+  );
+  &:hover {
+    background: transparent;
+    color: rgb(105, 111, 221);
+    border-color: black;
+  }
+}
